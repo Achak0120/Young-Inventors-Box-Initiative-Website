@@ -90,10 +90,11 @@ body {
     margin-left: 20px; /* Adjust for proper indentation */
     color: black;
     font-weight: lighter;
-    line-height: 2em;
+    line-height: 3em;
     font-style: italic;
     opacity: 0; /* Initially hidden */
     animation: fadeInUp 1.5s forwards; /* Fade in for entire list */
+    font-size: 30px;
 }
 
 /* Define the animation for fade-in and slide-up */
