@@ -72,7 +72,6 @@ nav {
 
 body {
     font: 'Montserrat', 'sans-serif';
-    overflow: hidden;
 }
 
 #linkedIn {
@@ -131,4 +130,12 @@ body {
 
 #mission-list li:nth-child(4) {
     --delay: 1.2s;
+}
+
+footer {
+    background-color: #2c2d3b;
+}
+
+#socials {
+    width: 20px;
 }
