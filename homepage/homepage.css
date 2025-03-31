@@ -134,5 +134,11 @@ body {
 
 footer {
     background-color: #2c2d3b;
+    text-align: center;
+    color: white;
 }
 
+#h4 {
+    text-align: left;
+    font-size: larger;
+}
