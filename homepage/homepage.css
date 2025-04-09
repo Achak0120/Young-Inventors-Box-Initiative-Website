@@ -1,29 +1,35 @@
 /* CSS for fade-in from left */
 .fade-left {
     opacity: 0;
-    transform: translateX(-100px); /* Start off to the left */
+    transform: translateX(-100px);
+    /* Start off to the left */
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
 .fade-left.show {
     opacity: 1;
-    transform: translateX(0); /* Move to normal position */
+    transform: translateX(0);
+    /* Move to normal position */
 }
 
 nav a {
-    text-decoration: none; /* Removes underline */
-    color: black; /* Changes text color */
+    text-decoration: none;
+    /* Removes underline */
+    color: black;
+    /* Changes text color */
     font-weight: bold;
     padding: 10px 15px;
 }
 
 nav a:hover {
-    color: gray; /* Optional: Change color on hover */
+    color: gray;
+    /* Optional: Change color on hover */
 }
 
 nav {
     display: flex;
-    justify-content: space-between; /* Icons on left, links on right */
+    justify-content: space-between;
+    /* Icons on left, links on right */
     align-items: center;
     background-color: #f4f4f4;
     padding: 10px;
@@ -55,14 +61,16 @@ nav {
 
 #right-div {
     height: 600px;
-    width: 50%; /* Added width */
-    float: left; /* Aligns it next to #left-div */
+    width: 50%;
+    /* Added width */
+    float: left;
+    /* Aligns it next to #left-div */
     background-color: lightgray;
 }
 
 #yibilogo {
     width: 90%;
-    height: auto;
+    margin-top: 260px;
 }
 
 #Mission-statement {
@@ -85,14 +93,18 @@ body {
 /* Styling the mission list */
 #mission-list {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    list-style-type: disc; /* Ensures bullet points are visible */
-    margin-left: 20px; /* Adjust for proper indentation */
+    list-style-type: disc;
+    /* Ensures bullet points are visible */
+    margin-left: 20px;
+    /* Adjust for proper indentation */
     color: black;
     font-weight: lighter;
     line-height: 3em;
     font-style: italic;
-    opacity: 0; /* Initially hidden */
-    animation: fadeInUp 1.5s forwards; /* Fade in for entire list */
+    opacity: 0;
+    /* Initially hidden */
+    animation: fadeInUp 1.5s forwards;
+    /* Fade in for entire list */
     font-size: 30px;
 }
 
@@ -102,6 +114,7 @@ body {
         opacity: 0;
         transform: translateY(30px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -112,7 +125,8 @@ body {
 #mission-list li {
     opacity: 0;
     animation: fadeInUp 0.5s ease-out forwards;
-    animation-delay: var(--delay); /* Delay animation for each item */
+    animation-delay: var(--delay);
+    /* Delay animation for each item */
 }
 
 /* Apply the animation delay to each list item */
@@ -136,4 +150,4 @@ body {
     text-align: left;
     color: white;
     text-decoration: none;
-  }
+}
