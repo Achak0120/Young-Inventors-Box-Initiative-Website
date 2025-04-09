@@ -53,14 +53,14 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 100%;
     width: 50%;
     float: left;
     background-color: white;
 }
 
 #right-div {
-    height: 600px;
+    height: 100%;
     width: 50%;
     /* Added width */
     float: left;
@@ -70,7 +70,7 @@ nav {
 
 #yibilogo {
     width: 90%;
-    margin-top: 260px;
+    margin-bottom: 260vw;
 }
 
 #Mission-statement {
